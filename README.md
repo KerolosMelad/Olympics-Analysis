@@ -1,5 +1,5 @@
 # Olympics-Analysis
-
+# Olympics Analysis Project
  # part 1
  
  
@@ -120,13 +120,13 @@ Rank by Total Rank based on total medals
 
 I added a new columny ('Year') that has value 2021 and disposed of Ranks columns.
 
-**MS2 Content**
+**Part 2 Content**
 
 **Data Importing:** importing the medals data using pandas
 
 **Unification:** Unify Country name in all table to be able to merge
 
-**Aggregation:** Convert MS1(Clean+outliers) dataset into new dataset. This dataset containt contains on new Feateres or columns , gold , silver ant total, These features sum the medals of the corrsesponding team and year. 
+**Aggregation:** Convert Part1(Clean+outliers) dataset into new dataset. This dataset containt contains on new Feateres or columns , gold , silver ant total, These features sum the medals of the corrsesponding team and year. 
 
 **Integration:** It doesn't matter if we join the tables or append them because the medals dataset is in a 2021. However, The recent year in MS1 aggregated dataset is 2016.
 
@@ -143,7 +143,7 @@ So I thought It's better to append The Aggregated and Medals dataset not join th
 
 **Features Engineering**
 
-**2 New Feature Engineered to the cleaned MS1 dataset(Athletes)**
+**2 New Feature Engineered to the cleaned Part1 dataset(Athletes)**
 
 1. The BMI Group: it categorizes participants based on their BMI score. The BMI Score is calculated as (Weight/((Height/100)*(Height/100))). This feature is based on the weight and height of the participant. It is important in classifying the participant to know whether he is Underweight, Normal, Overweight, or Obese. This classificaiton is important to know in order to know which players can compete with each other and who can participate in which sport based on his BMI.if BMI is less than 18.5 then this person is underweight, if the bmi is less than 25 then he is considered normal, if the bmi is less than 30 then he is considered overweight, otherwise he is considered Obese.
 
@@ -159,7 +159,7 @@ So I thought It's better to append The Aggregated and Medals dataset not join th
 
 **# What are the sports that old people performs better than youth ?**
 
-In general the integration and the newly engineered feature don't help greatly in research question in MS1, As the questions in MS1 Could be almostly answered in MS1
+In general the integration and the newly engineered feature don't help greatly in research question in Part1, As the questions in Part1 Could be almostly answered in Part1
 
  # Part 3
  The main purpose here is to build a Pipeline to extract, transform, Load dataset using Airflow.
