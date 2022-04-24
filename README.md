@@ -190,7 +190,7 @@ In general the integration and the newly engineered feature don't help greatly i
   ref:[https://www.astronomer.io/guides/airflow-passing-data-between-tasks]
   ![alt text](AiflowPipeline.png)
 
- # Bonus Part
+ # Sentimen Analysis with Twitter Streaming 
  The idea here is similar to MS3. Using Airflow , we build a scheduled pipeline to
  
  1- **Stream** tweets using tweeter APIs that is tracked on two partipating countries in Tokyo 2021 Egypt and USA. 20 tweets for each country.
